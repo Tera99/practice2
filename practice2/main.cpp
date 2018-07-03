@@ -16,5 +16,11 @@ int main(int argc, const char * argv[]) {
     
     cout << "Tera is a rockstar!!\n";
     
+    //make some changes
+    const int size = 10;
+    for (int i = 0; i < size; i++){
+        printf("Change some stuff: %d\n", i);
+    }
+    
     return 0;
 }
